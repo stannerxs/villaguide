@@ -1,0 +1,157 @@
+{
+    "teams": [
+      {
+        "id": "arsenal",
+        "name": "Arsenal",
+        "image": "/assets/img/prem/arsenal.png",
+        "color": "#EF0107",
+        "link": "/awayguide/prem/arsenal.html",
+        "status": "completed"
+      },
+      {
+        "id": "bournemouth",
+        "name": "Bournemouth",
+        "image": "/assets/img/prem/bournemouth.png",
+        "color": "#DA291C",
+        "link": "/awayguide/prem/bournemouth.html",
+        "status": "completed"
+      },
+      {
+        "id": "brentford",
+        "name": "Brentford",
+        "image": "/assets/img/prem/brentford.png",
+        "color": "#D20000",
+        "link": "/awayguide/prem/brentford.html",
+        "status": "completed"
+      },
+      {
+        "id": "brighton",
+        "name": "Brighton",
+        "image": "/assets/img/prem/brighton.png",
+        "color": "#0057B8",
+        "link": "/awayguide/prem/brighton.html",
+        "status": "completed"
+      },
+      {
+        "id": "chelsea",
+        "name": "Chelsea",
+        "image": "/assets/img/prem/chelsea.webp",
+        "color": "#034694",
+        "link": "/awayguide/prem/chelsea.html",
+        "status": "completed"
+      },
+      {
+        "id": "palace",
+        "name": "Crystal Palace",
+        "image": "/assets/img/prem/palace.png",
+        "color": "#1B458F",
+        "link": "/awayguide/prem/palace.html",
+        "status": "completed"
+      },
+      {
+        "id": "everton",
+        "name": "Everton",
+        "image": "/assets/img/prem/everton.png",
+        "color": "#003399",
+        "link": "/awayguide/prem/everton.html",
+        "status": "completed"
+      },
+      {
+        "id": "fulham",
+        "name": "Fulham",
+        "image": "/assets/img/prem/fulham.png",
+        "color": "#FFFFFF",
+        "link": "/awayguide/prem/fulham.html",
+        "status": "completed"
+      },
+      {
+        "id": "ipswich",
+        "name": "Ipswich",
+        "image": "/assets/img/prem/ipswich.png",
+        "color": "#3A64A3",
+        "link": "/awayguide/prem/ipswich.html",
+        "status": "completed"
+      },
+      {
+        "id": "leicester",
+        "name": "Leicester",
+        "image": "/assets/img/prem/leicester.png",
+        "color": "#003090",
+        "link": "/awayguide/prem/leicester.html",
+        "status": "completed"
+      },
+      {
+        "id": "liverpool",
+        "name": "Liverpool",
+        "image": "/assets/img/prem/liverpool.png",
+        "color": "#C8102E",
+        "link": "/awayguide/prem/liverpool.html",
+        "status": "completed"
+      },
+      {
+        "id": "city",
+        "name": "Manchester City",
+        "image": "/assets/img/prem/city.png",
+        "color": "#6CABDD",
+        "link": "/awayguide/prem/city.html",
+        "status": "completed"
+      },
+      {
+        "id": "united",
+        "name": "Manchester United",
+        "image": "/assets/img/prem/united.png",
+        "color": "#DA291C",
+        "link": "/awayguide/prem/united.html",
+        "status": "completed"
+      },
+      {
+        "id": "newcastle",
+        "name": "Newcastle United",
+        "image": "/assets/img/prem/newcastle.webp",
+        "color": "#241F20",
+        "link": "/awayguide/prem/newcastle.html",
+        "status": "completed"
+      },
+      {
+        "id": "forest",
+        "name": "Nottingham Forest",
+        "image": "/assets/img/prem/forest.png",
+        "color": "#DD0000",
+        "link": "/awayguide/prem/forest.html",
+        "status": "completed"
+      },
+      {
+        "id": "southampton",
+        "name": "Southampton",
+        "image": "/assets/img/prem/southampton.png",
+        "color": "#D71920",
+        "link": "/awayguide/prem/southampton.html",
+        "status": "completed"
+      },
+      {
+        "id": "spurs",
+        "name": "Tottenham Hotspur",
+        "image": "/assets/img/prem/spurs.png",
+        "color": "#FFFFFF",
+        "link": "/awayguide/prem/spurs.html",
+        "status": "completed"
+      },
+      {
+        "id": "westham",
+        "name": "West Ham United",
+        "image": "/assets/img/prem/westham.png",
+        "color": "#7A263A",
+        "link": "/awayguide/prem/westham.html",
+        "status": "completed"
+      },
+      {
+        "id": "wolves",
+        "name": "Wolverhampton Wanderers",
+        "image": "/assets/img/prem/wolves.png",
+        "color": "#FDB913",
+        "link": "/awayguide/prem/wolves.html",
+        "status": "completed"
+      }
+    ]
+  }
+  

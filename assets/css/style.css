@@ -9,8 +9,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: #333;
-  padding-bottom: calc(70px + env(safe-area-inset-bottom)); /* ensures content extends to safe area on iOS */
-  text-align: center; /* default center alignment */
+  padding-bottom: calc(70px + env(safe-area-inset-bottom)); /* for safe area on iOS */
+  text-align: center;
 }
 
 /* Hero Header */
@@ -29,11 +29,12 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(103, 14, 54, 0.6); /* less transparent overlay for improved readability */
+  /* Increased opacity for readability */
+  background: rgba(103, 14, 54, 0.6);
 }
 .header-logo {
   position: relative;
-  width: 70px; /* increased logo size */
+  width: 70px; /* Increased logo size */
   height: auto;
   margin-bottom: 8px;
 }
@@ -101,7 +102,7 @@ main {
   margin-bottom: 5px;
 }
 
-/* Card Grid for Team/Content Cards */
+/* Card Grid for Uniform Cards */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -109,21 +110,35 @@ main {
   padding: 15px;
   justify-items: center; /* Center items in each row */
 }
-.card {
-  background: #f8f8f8;
-  border-radius: 6px;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
+
+/* Uniform Cards for Guides (e.g., Away Guides competition selector) */
+.guide-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  width: 140px;  /* fixed width */
+  height: 140px; /* fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
 }
-.card h3 {
+.guide-card:hover {
+  transform: scale(1.03);
+}
+.guide-card h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #670e36;
+  font-size: 1.1em;
   margin-bottom: 5px;
+  color: #670e36;
 }
-.card p {
+.guide-card p {
   font-size: 0.9em;
-  line-height: 1.4;
+  margin: 0;
 }
 
 /* Specific Styles for Team Cards in Away Games */
@@ -136,12 +151,12 @@ main {
   border-radius: 8px;
   text-decoration: none;
   transition: transform 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* added shadow */
+  /* Use the team color as full background; add shadow for contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .team-card:hover {
   transform: scale(1.05);
 }
-
 /* Team Badge Logos */
 .team-card-logo {
   width: 60px;   /* fixed size for logos */
@@ -213,7 +228,7 @@ main {
   font-size: 1.3em;
 }
 
-/* Footer (only on Home Page) */
+/* Footer - Only on Home Page */
 footer {
   background: #670e36;
   color: #fff;

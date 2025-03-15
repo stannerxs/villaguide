@@ -1,0 +1,215 @@
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding-bottom: 70px; /* space for bottom nav */
+    text-align: center;   /* Make text centered by default */
+  }
+  
+  /* Hero Header */
+  .hero-header {
+    position: relative;
+    background: url('../img/holte.jpeg') center/cover no-repeat;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(103, 14, 54, 0.6); /* slightly more opaque overlay */
+  }
+  .header-logo {
+    position: relative;
+    width: 70px;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  .page-title {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    margin-bottom: 4px;
+  }
+  .subheading {
+    position: relative;
+    color: #fff;
+    font-size: 0.9em;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Sections */
+  main {
+    padding: 15px;
+  }
+  .home-intro, .page-intro {
+    margin-bottom: 25px;
+  }
+  .home-intro h2, .page-intro h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #670e36;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .home-intro p, .page-intro p {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons & Featured Content */
+  .btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #670e36;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9em;
+  }
+  .btn.small-btn {
+    padding: 8px 12px;
+    font-size: 0.8em;
+  }
+  .featured-content {
+    background: #f8f8f8;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 350px;
+    text-align: center; /* Keep it consistent with rest */
+  }
+  .featured-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #670e36;
+    margin-bottom: 5px;
+  }
+  
+  /* Card Grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .card {
+    background: #f8f8f8;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  .card h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #670e36;
+    margin-bottom: 5px;
+  }
+  .card p {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  /* Social Links (Home Page) */
+  .social-links-home {
+    margin-top: 15px;
+  }
+  .social-links-home p {
+    margin-bottom: 10px;
+  }
+  .social-btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    background: #eaeaea;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .twitter-btn {
+    background: #1da1f2;
+    color: #fff;
+  }
+  .telegram-btn {
+    background: #0088cc;
+    color: #fff;
+  }
+  
+  /* Bottom Navigation */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #670e36;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  .bottom-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 6px 0;
+  }
+  .bottom-nav li {
+    text-align: center;
+  }
+  .bottom-nav a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+  }
+  .nav-icon {
+    font-size: 1.3em;
+    margin-bottom: 2px;
+  }
+  .nav-label {
+    font-size: 0.75em;
+  }
+  .home-icon {
+    font-size: 1.3em;
+  }
+  
+  /* Responsive Tweaks */
+  @media (max-width: 768px) {
+    .hero-header {
+      height: 180px;
+    }
+    .header-logo {
+      width: 60px;
+    }
+    .page-title {
+      font-size: 1.4em;
+    }
+    .subheading {
+      font-size: 0.8em;
+    }
+    .btn {
+      font-size: 0.85em;
+    }
+    .card {
+      padding: 8px;
+    }
+    .card h3 {
+      font-size: 1em;
+    }
+  }
+  
